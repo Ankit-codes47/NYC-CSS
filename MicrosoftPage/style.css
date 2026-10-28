@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+nav{
+    padding: 0px 80px;
+    margin: 5px 5px;
+    height: 7%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.nav-left p{
+    cursor: pointer;
+}
+
+.nav-left p:hover{
+    text-underline-offset: 8px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+#firstP{
+    margin-left: 20px;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navLink{
+    display: flex;
+    gap: 5px;
+    align-items: center
+}
+
+.nav-right p,i{
+    cursor: pointer;
+}
+
+.nav-right p:hover{
+    text-underline-offset: 8px;
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+}
+
+section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+    height: 65%;
+    width: 100%;
+    padding-left: 60px;
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Hero-Featured-Surface-Laptop-13-2Ed-Pro-12-2Ed-SnapdragonX2-Platinum-Attract?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=2160&hei=1215&qlt=90&fit=constrain);
+    background-position: center;
+    background-size: cover ;
+}
+
+section img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.sectionText{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#coming{
+    padding: 10px 20px;
+    background-color: #FFB900;
+    border: none;
+    border-radius: 5px;
+    width: fit-content;
+}
+
+section h1{
+    font-weight: 500;
+    font-size: 40px;
+    letter-spacing: 1px;
+}
+
+section p{
+    font-size: 14px;
+    line-height: 20px;
+}
+
+#learn{
+    padding: 13px 22px;
+    background-color: #0D74C4;
+    border: none;
+    border-radius: 5px;
+    color: white ;
+    font-size: 14px;
+    width: fit-content;
+}
+
+.catBox{
+    text-align: center;
+    color: #004275;
+}

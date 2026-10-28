@@ -6,21 +6,30 @@
 html,body{
     height: 100%;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* flex-wrap: wrap; */
-    /* flex-shrink: 0; */
-    flex-direction: column;
-    gap: 10px;
-
 }
 
-.box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: green;
-    height: 30%;
-    width: 25%;
+main{
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    font-size: 20px;
+    /* transition: all 0.5s ease-in-out; */
+    animation: spin 1s ease-in-out infinite alternate;
+}
+
+/* main:hover {
+    transform: scale(1.1);
+} */
+
+@keyframes spin {
+    from{
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(1200px);
+    }
+}
+
+h1{
+    color: red;
 }
